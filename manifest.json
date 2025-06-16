@@ -1,0 +1,15 @@
+{
+  "domain": "ovo_charge",
+  "name": "OVO Charge (Bonnet)",
+  "config_flow": true,
+  "documentation": "https://github.com/cvl01/ha-ovo-charge",
+  "issue_tracker": "https://github.com/cvl01/ha-ovo-charge/issues",
+  "codeowners": [
+    "@cvl01"
+  ],
+  "requirements": [
+    "aiohttp>=3.9.0"
+  ],
+  "iot_class": "cloud_polling",
+  "version": "1.0.0"
+}

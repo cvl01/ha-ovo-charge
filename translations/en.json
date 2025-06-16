@@ -1,0 +1,28 @@
+{
+    "config": {
+      "step": {
+        "user": {
+          "title": "OVO Charge Account",
+          "description": "Enter your OVO Charge (Bonnet) email address. This will trigger a 'magic link' to be sent to your inbox for authentication.",
+          "data": {
+            "email": "Email Address"
+          }
+        },
+        "link": {
+          "title": "Verify Magic Link",
+          "description": "A magic link has been sent to {email}. Please check your inbox, copy the entire link, and paste it below to complete the setup.",
+          "data": {
+            "magic_link": "Magic Link URL"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Failed to connect to the OVO Charge API. Please check your network and try again.",
+        "invalid_auth": "The magic link is invalid, expired, or does not match the email address. Please restart the setup to get a new link.",
+        "unknown": "An unexpected error occurred. Please check the logs for more details."
+      },
+      "abort": {
+        "already_configured": "This OVO Charge account is already configured."
+      }
+    }
+  }
