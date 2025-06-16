@@ -8,7 +8,7 @@ This integration uses an unofficial, reverse-engineered API based on the OVO Cha
 
 ## Features
 
-- **Real-time Charging Status**: Get live updates on your charging session.
+- ~~**Real-time Charging Status**: Get live updates on your charging session.~~
 - **Energy Monitoring**: Track the total energy delivered to your vehicle.
 - **Power Monitoring**: See the current charging power in kW.
 - **Session Information**: View details like location, operator, and start time.
