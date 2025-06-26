@@ -130,7 +130,10 @@ class OVOChargeApiClient:
             data = await self._request("GET", url, headers=headers)
             # The first item is the most recent. Check if it's active.
             if data.get("items") and data["items"][0].get("status") == "ACTIVE":
+                LOGGER.debug("Active charge session found: %s", data["items"][0])
                 return data["items"][0]
+            
+            
         except OVOChargeApiClientError:
             # If the request fails, it might be due to token issues
             # Force a token refresh and try once more

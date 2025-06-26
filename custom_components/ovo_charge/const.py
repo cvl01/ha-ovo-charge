@@ -36,5 +36,5 @@ CONF_ID_TOKEN = "id_token"
 CONF_USER_ID = "user_id"
 
 # Update interval
-SCAN_INTERVAL_ACTIVE_CHARGE = 30  # seconds
+SCAN_INTERVAL_ACTIVE_CHARGE = 60  # seconds
 SCAN_INTERVAL_IDLE = 300  # seconds
