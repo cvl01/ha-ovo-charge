@@ -1,21 +1,26 @@
-# OVO Charge (Bonnet) Integration for Home Assistant
+# <img src="custom_components/ovo_charge/logo.png" width="20" alt="OVO Charge Logo"> OVO Charge (Bonnet) Integration for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/hacs/integration)
 
-This is a custom integration for [Home Assistant](https://www.home-assistant.io/) to integrate with [OVO Charge (formerly Bonnet)](https://www.ovo-charge.com/). It allows you to monitor your electric vehicle charging sessions in real-time.
+This is a custom integration for [Home Assistant](https://www.home-assistant.io/) to integrate with [OVO Charge (formerly Bonnet)](https://www.ovoenergy.com/electric-cars/charge-anywhere). It allows you to monitor your electric vehicle charging sessions in real-time.
 
 This integration uses an unofficial, reverse-engineered API based on the OVO Charge mobile app. As such, it may break at any time if the API is changed by the provider.
 
 ## Features
 
-- ~~**Real-time Charging Status**: Get live updates on your charging session.~~
 - **Energy Monitoring**: Track the total energy delivered to your vehicle.
 - **Power Monitoring**: See the current charging power in kW.
 - **Session Information**: View details like location, operator, and start time.
 
 ## Installation
 
-### Recommended: HACS
+### Auto install with HACS (recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=cvl01&repository=ha-ovo-charge)
+
+### Manual Installation: HACS (alternative)
+<details>
+<summary>Click to expand manual HACS installation steps</summary>
 
 1.  Go to HACS -> Integrations.
 2.  Click the three dots in the top right and select "Custom repositories".
@@ -23,11 +28,15 @@ This integration uses an unofficial, reverse-engineered API based on the OVO Cha
 4.  Click "ADD".
 5.  The "OVO Charge (Bonnet)" integration will now be available to install. Click "INSTALL".
 6.  Restart Home Assistant.
+</details>
 
-### Manual Installation
+### Manual Installation: Copy files (alternative)
+<details>
+<summary>Click to expand manual file copy installation steps</summary>
 
 1.  Copy the `custom_components/ovo_charge` directory to your Home Assistant `custom_components` directory.
 2.  Restart Home Assistant.
+</details>
 
 ## Configuration
 
